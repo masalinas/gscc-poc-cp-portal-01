@@ -10,7 +10,8 @@ const routes: Routes = [
   //{ path: 'gsbi', component: GsbiComponent },
   //{ path: 'gsbi', loadChildren: () => import('@masalinas/gsbi').then(m => m.GsbiModule) },  
   //{ path: 'gspl', loadChildren: () => import('@masalinas/gspl').then(m => m.GsplModule) },
-  { path: 'gspl', loadChildren: () => import('./gspl/gspl.module').then(m => m.GsplModule) },
+  { path: 'gsbi', loadChildren: () => import('./gsbi/gsbi.module').then(m => m.GsbiModule) },
+  { path: 'gspl', loadChildren: () => import('./gspl/gspl.module').then(m => m.GsplModule) },  
 ];
 
 @NgModule({
