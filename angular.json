@@ -30,7 +30,7 @@
               "node_modules/primeflex/primeflex.css",
               "node_modules/primeicons/primeicons.css"
             ],
-            "preserveSymlinks": true,
+            "preserveSymlinks": true,            
             "scripts": []
           },
           "configurations": {
